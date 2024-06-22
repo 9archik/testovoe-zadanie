@@ -19,7 +19,6 @@ export const TodoProvider = ({ children }) => {
   }, [todos]);
 
   const addTodo = (text) => {
-    console.log('txt', text)
     setTodos([
       ...todos,
       {
