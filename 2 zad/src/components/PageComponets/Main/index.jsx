@@ -38,7 +38,7 @@ const MainPage = () => {
     switch (modeNote) {
       case "add":
         addTodo(noteInput);
-
+      
         break;
       case "edit":
         editTodo(editId.current, noteInput);
@@ -46,7 +46,6 @@ const MainPage = () => {
       default:
         break;
     }
-
     setModeNote(null);
   };
   return (
