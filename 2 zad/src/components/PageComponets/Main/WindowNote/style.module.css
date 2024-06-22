@@ -1,42 +1,53 @@
-.container{
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 10px;
-    padding: 20px;
-    width: 100%;
-    max-width: 800px;
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  max-width: 800px;
 }
 
-.header{
-    font-size:32px;
-    font-weight: 700;
-    width:100%;
-    text-align: center;
+.header {
+  font-size: 32px;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
 }
 
-.input{
-    margin: 20px 0 0 0;
+.input {
+    margin: 15px 0 0 0;
 }
 
-.buttons{
-    margin: 100px 0 0 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.inputBlock {
+  margin: 5px 0 0 0;
+  position: relative;
 }
 
-.buttons button{
-    padding: 10px 22px;
+.error {
+  position: absolute;
+  color: #E50000;
+  font-size: 12px;
 }
 
-.buttons button:first-child{
-    background-color: transparent;
-    border: 1px solid #6C63FF;
-    color: #6C63FF;
+.buttons {
+  margin: 100px 0 0 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttons button {
+  padding: 10px 22px;
+}
+
+.buttons button:first-child {
+  background-color: transparent;
+  border: 1px solid #6c63ff;
+  color: #6c63ff;
 }
