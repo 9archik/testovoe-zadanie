@@ -1,0 +1,34 @@
+.checkbox {
+  width: 26px;
+  height: 26px;
+}
+
+.checkbox input {
+  display: none;
+}
+
+.visual {
+  cursor: pointer;
+  width: 26px;
+  height: 26px;
+  border-radius: 2px;
+  border: 1px solid #6c63ff;
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.25s;
+}
+
+.visual.active {
+  background-color: #6c63ff;
+}
+
+.visual img {
+  opacity: 0;
+  transition: .25s;
+}
+
+.visual.active img {
+  opacity: 1;
+}

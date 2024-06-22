@@ -1,0 +1,26 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 40px 0 0 0;
+  font-size: 32px;
+  align-items: center;
+}
+
+.container button {
+  display: none;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  min-height: 0;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    justify-content: space-between;
+  }
+
+  .container button {
+    display: flex;
+  }
+}

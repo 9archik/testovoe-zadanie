@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #6c63ff;
+  width: 100%;
+}
+
+.container:last-child
+{
+  border: 0;
+}
+
+.text {
+  display: block;
+  margin: 0 0 0 12px;
+  flex: 1 1 auto;
+}
+
+.complete{
+  color: #25252576;
+  text-decoration: line-through;
+}
+
+.container .btn {
+  background-color: transparent;
+  padding: 10px;
+}
+
+.btn:first-child {
+  margin-left: 12px;
+}
+
+@media (hover: hover) {
+  .container .btn:hover,
+  .container .btn:focus {
+    background-color: transparent;
+  }
+
+  .btn.edit:hover svg path,
+  .btn.edit:hover svg path {
+    stroke: #6c63ff;
+  }
+
+  .btn.delete:hover svg path,
+  .btn.delete:hover svg path {
+    stroke: #e50000;
+  }
+}

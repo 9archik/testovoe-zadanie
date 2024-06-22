@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6C63FF;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    
+}
+
+@media (hover: hover) {
+    .container:hover, .container:focus{
+        background-color: #534CC2;
+    }
+}
