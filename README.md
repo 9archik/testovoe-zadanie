@@ -4,5 +4,7 @@
 
 * [Ссылка на деплой todo листа](https://testovoe-zadanie-jet.vercel.app/)
 
+* [Ссылка на задание со списком пользователей](https://testovoe-zadanie-4cfl.vercel.app/)
+
 
 
